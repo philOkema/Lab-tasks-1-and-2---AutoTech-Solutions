@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT-223-051/2022 - PHILL SIFUNA OKEMA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">Enquire&nbsp; About&nbsp; Our&nbsp; Services</h1>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Services</a></li>
+                <li><a href="enquire.html">Enquire</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact" id="contact">
+        <h2 align="center">Reach <span class="red">Out</span></h2>
+        <form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobileNumber" placeholder="Mobile Number" required>
+                <input type="text" id="emailSubject" placeholder="Email Subject">
+            </div>
+            <div class="input-box">
+                <label>Preferred Contact Method:</label><br>
+                <div class="radio-box">
+                <input type="radio" name="contactMethod" value="Email" class="small-radio" required> Email
+                </div>
+                <div class="radio-box">
+                <input type="radio" name="contactMethod" value="Phone" class="small-radio" required> Phone
+                </div>
+            </div>
+            <div class="input-box">
+                <label>Choose a Service:</label><br>
+                <select name="services" id="services" required>
+                    <option value="">Select a service</option>
+                    <option value="Consulting">Consulting</option>
+                    <option value="Product Support">Product Support</option>
+                    <option value="Training">Training</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <label>Interested in Newsletter:</label><br>
+                <div class="checkbox-box">
+                <input type="checkbox" name="newsletter" id="newsletter"> Yes, subscribe me!
+                </div>
+            </div>
+            <div class="input-box">
+                <label>Attach a File:</label><br>
+                <input type="file" name="attachment" id="attachment" required>
+            </div>
+            <div class="input-box">
+                <label>Appointment Date:</label><br>
+                <input type="date" id="appointmentDate" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024&nbsp; CIT-223-051/2022 PHILL SIFUNA OKEMA</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
