@@ -39,6 +39,8 @@ Enquiry Page: A form for users to submit questions or requests for further infor
 
 About Us Page: Information about the company’s history and values.
 
+Testimonials Page: Feedback from satisfied customers, showcasing the impact of the company's services.
+
 Technologies Used
 
 HTML: For structuring the content and layout of the web pages.
